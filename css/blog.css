@@ -5,7 +5,7 @@ html{
 body,p
 .menu,
 .sub-menu {  
- background-size:100%vw;  
+  
 }
 body{
     background-color: #63C6CF;
@@ -78,13 +78,20 @@ header{
   padding-left: 5px;
 }
 
-h1,p{
-    font-size: 1,8vw;
+p{
+    font-size: 2vw;
      text-indent: 2%;  
 }
 h1{
+  font-size: 4vw;
    text-align: center;
 }
+
+img{
+  max-width: 100%;
+  height: auto;
+}
+
 #fateclink{
   float: right;
 	padding-right:5%;
@@ -146,10 +153,11 @@ h1{
     margin: 0% 2% 2% 5%;
     float: left;
 }
-#articledesign{
+/*#articledesign{
   border-top: solid;
   margin-top: 13%;
 }
+*/
 .formulario{
     padding: 2% 0% 40% 0%;
 }
@@ -157,12 +165,14 @@ input,  textarea, select{
     display:block;
     margin-bottom:2%;
     size: 40%;
+
 }
 input.dis_inline{
-    display:inline-block;
+    display:block;
 
 }
 .inline{
+  
     margin:10px;
     display:inline-block;
 }
@@ -182,10 +192,7 @@ footer {
     margin: 15px 0px 15px 40px;
 }
 
-.ifelse{
-    display: table;
-    text-decoration: none;
-}
+
 .sitejefferson{
     float: right;
     margin: 100px 170px 0px 0px;
@@ -214,12 +221,11 @@ strong{
 
 .artigo{   
     position: absolute;
-    margin: 0px 52% 0px 5%;
+    margin: 0% 52% 0% 5%;
 }
 .relatorio{
-    
     float: right;
-    margin: 0px 5% 0px 52%;   
+    margin: 0% 5% 0% 52%;   
 }
 h2{
     text-align: center;
@@ -245,8 +251,8 @@ h2{
     border-bottom: solid;
 }
 .brasil{
-    height: 50px;
-    width: 50px;
+    height: 10%;
+    width: 10%;
     float: left;
     margin: 0% 0% 1% 40%; 
 }
