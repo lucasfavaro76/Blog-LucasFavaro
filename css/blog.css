@@ -1,0 +1,252 @@
+html{
+    font-family: Helvetica;
+}
+
+body,p
+.menu,
+.sub-menu {  
+ background-size:100%vw;  
+}
+body{
+    background-color: #63C6CF;
+}
+section{
+    background-color: #fff;
+    margin:0% 6% 0% 6%;
+}
+article{
+    margin:5% 6% 0% 6%;
+}
+header{
+	display:flex;
+	padding:12%;
+  background-color: #3B619C;
+  background-image: url(../imagens/sistemas-para-internet.jpg), url(../imagens/meu_logo.png);
+  background-repeat: no-repeat, no-repeat ;
+	background-position:right,left;
+  background-size: 50%,50%;
+}
+ /*#5C6169; 
+ menu*/
+.menu {
+  font-family: sans-serif;
+}
+.menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+.menu ul li {
+  width: 20%;
+}
+@media (max-width: 40em) {
+  .menu ul li {
+    width: 100%;
+  }
+}
+.menu ul li > ul {
+  display: none;
+  flex-direction: column;
+}
+.menu ul li > ul li {
+  width: 100%;
+}
+.menu ul li:hover > ul {
+  display: flex;
+}
+.menu a {
+  text-transform: uppercase;
+  display: block;
+  background: #5C6169;
+  padding: 20px;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+}
+
+.menu a:hover {
+  background: gray;
+}
+.menu .sub-menu li > a {
+  background: #5C6169;
+  color: white;
+}
+.menu .sub-menu > a:after {
+  content: "+";
+  padding-left: 5px;
+}
+
+h1,p{
+    font-size: 1,8vw;
+     text-indent: 2%;  
+}
+h1{
+   text-align: center;
+}
+#fateclink{
+  float: right;
+	padding-right:5%;
+}
+.fotos{
+    float: right;
+    height:30%;
+    width:30%;
+    
+}
+.designimage{
+    height: 25%;
+    width: 25%;
+    margin: 2% 4% 2% 4%;
+}
+#tim{
+  padding:15%;
+  background-image: url(../imagens/tim_bernes_lee.jpg);
+  background-repeat: no-repeat;
+  background-position: left;
+  margin-right: 2%;
+  float: left;
+}
+#cricao{
+  padding:10%;
+  background-image: url(../imagens/bases.jpg), url(../imagens/protocolos.png);
+  background-repeat: no-repeat,no-repeat;
+}
+.html{
+    height:50%;
+    width:50%;
+}
+.html1{
+    float: right;
+    height:50%;
+    width:50%;
+}
+.tec{
+    height: 35%;
+    width: 35%;
+    float: right;
+    margin: 1% 0% 1% 1%;
+}
+
+.port{
+    height: 30%;
+    width: 30%;
+    margin: 0% 0% 0% 5%;  
+}
+.mat{
+    height: 35%;
+    width: 35%;
+    margin: 0% 2% 2% 1%;
+    float: left;
+}
+.mat2{
+    height: 35%;
+    width: 35%;
+    margin: 0% 2% 2% 5%;
+    float: left;
+}
+#articledesign{
+  border-top: solid;
+  margin-top: 13%;
+}
+.formulario{
+    padding: 2% 0% 40% 0%;
+}
+input,  textarea, select{
+    display:block;
+    margin-bottom:2%;
+    size: 40%;
+}
+input.dis_inline{
+    display:inline-block;
+
+}
+.inline{
+    margin:10px;
+    display:inline-block;
+}
+
+
+
+
+footer {
+    clear: both;
+    background: #eee;
+    padding: 1%;
+    border-top: 1% solid #ddd;
+    text-align: center;
+    color: #777;
+}
+.copy{
+    margin: 15px 0px 15px 40px;
+}
+
+.ifelse{
+    display: table;
+    text-decoration: none;
+}
+.sitejefferson{
+    float: right;
+    margin: 100px 170px 0px 0px;
+}
+.siteneto{
+  float: right;
+  width:5%;
+  height: 5%;
+  margin: 100px 100px 10px 20px;
+}
+#seo{
+  display:flex;
+  padding:15%;
+  background-image: url(../imagens/marketing_digital.png);
+  background-repeat: no-repeat;
+  background-position:left;
+}
+.seo1{
+    float: left;
+    height: 25%;
+    width: 25%;
+}
+strong{
+    color: red;
+}
+
+.artigo{   
+    position: absolute;
+    margin: 0px 52% 0px 5%;
+}
+.relatorio{
+    
+    float: right;
+    margin: 0px 5% 0px 52%;   
+}
+h2{
+    text-align: center;
+}
+.seta{ 
+    height: 19%;
+    width: 19%;
+    float: right;
+    margin: 0% 10% 0% 0%;
+}
+
+.logorede{
+    width: 4%;
+    height: 4%;
+    margin: 21% 0% 0% 0%;
+}
+.redessociais{
+    margin: 1% 0% 0% 5%; 
+    height: 4%;
+    width: 4%; 
+}
+.materia{
+    border-bottom: solid;
+}
+.brasil{
+    height: 50px;
+    width: 50px;
+    float: left;
+    margin: 0% 0% 1% 40%; 
+}
