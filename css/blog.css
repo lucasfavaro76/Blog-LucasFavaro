@@ -1,7 +1,6 @@
 html{
     font-family: Helvetica;
 }
-
 body{
     background-color: #63C6CF;
 }
@@ -101,13 +100,13 @@ img{
     margin: 2% 4% 2% 4%;
 }
 #tim{
-  padding:13%;
-   background-size:100%;
+  float: left;
+  padding:16%;
+  background-size:100%;
   background-image: url(../imagens/tim_bernes_lee.jpg);
   background-repeat: no-repeat;
   background-position: left;
   margin-right: 2%;
-  float: left;
 }
 #criacao{
   background-size:45%;
@@ -115,6 +114,7 @@ img{
   background-image: url(../imagens/protocolos.png);
   background-position: left;
   background-repeat: no-repeat;
+  margin-left: 5%;
 }
 #alg{
    background-size:100%;
@@ -220,9 +220,6 @@ strong{
     width: 22%;
     float: right;
     margin: 0% 10% 0% 0%;
-}
-.materia{
-    border-bottom: solid;
 }
 .brasil{
     height: 7%;
