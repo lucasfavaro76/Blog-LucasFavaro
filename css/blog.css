@@ -13,6 +13,7 @@ article{
 }
 header{
 	display:flex;
+  flex-flow:row wrap; 
 	padding:12%;
   background-color: #3B619C;
   background-image: url(../imagens/sistemas-para-internet.jpg), url(../imagens/meu_logo.png);
@@ -53,7 +54,7 @@ header{
   text-transform: uppercase;
   display: block;
   background: #5C6169;
-  padding: 20px;
+  padding: 1.5vw;
   color: white;
   text-decoration: none;
   text-align: center;
@@ -68,7 +69,7 @@ header{
 }
 .menu .sub-menu > a:after {
   content: "+";
-  padding-left: 5px;
+  padding-left: 1%;
 }
 
 p,a{
@@ -115,6 +116,7 @@ img{
   background-position: left;
   background-repeat: no-repeat;
   margin-left: 5%;
+  margin:auto;
 }
 #alg{
    background-size:100%;
@@ -144,21 +146,20 @@ img{
 }
 #port{
   background-size:100%;
+  padding:25%;
   background-image: url(../imagens/portugues1.jpg);
-  padding:20%;
   background-repeat: no-repeat;
-  background-position: left;
-  margin: 0% 5% 0% 5%;  
-  float: left;
+  background-position: left ;
 }
 #mat{
-  background-size:50%;
+  background-size:45%,50%;
   padding: 15%;
   background-image: url("../imagens/matematica1.jpg"), url("../imagens/matematica2.jpg");
   background-position: left,right;
   background-repeat: no-repeat;
 }
 #articledesign{
+
   border-top: solid;
   margin-top: 13%;
 }
@@ -195,12 +196,13 @@ footer {
 }
 
 .ifelse{
-    display: table;
+    
     text-decoration: none;
 }
 .siteCriado{
   float: right;
-  margin-right: 15%; 
+  margin-right: 15%;
+
 }
 
 strong{
