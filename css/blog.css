@@ -116,7 +116,7 @@ img{
   background-position: left;
   background-repeat: no-repeat;
   margin-left: 5%;
-  margin:auto;
+ 
 }
 #alg{
    background-size:100%;
@@ -174,10 +174,15 @@ img{
 .formulario{
     padding: 2% 0% 10% 0%;
 }
-input,  textarea, select{
+input,  textarea, select,label,fieldset,legend,textarea{
     display:block;
     margin-bottom:2%;
-    size: 40%;
+    font-size: 1.5vw;
+    size: 30vw;
+}
+textarea{
+  max-width: 20vw;
+  max-height: 20vw;
 }
 input.dis_inline{
     display:inline-block;
@@ -201,8 +206,7 @@ footer {
 }
 .siteCriado{
   float: right;
-  margin-right: 15%;
-
+  margin:0% 15% 5% 0%;
 }
 
 strong{
@@ -228,4 +232,32 @@ strong{
     width: 7%;
     float: left;
     margin: 0% 0% 1% 40%; 
+}
+
+/*.gallery {
+  
+}
+.image {
+  
+}
+.item img {
+  display: block;
+  width: 100%
+}
+*/
+.row {
+  display: flex;  
+ flex-wrap: wrap;
+  margin: 1%;
+  padding: 1%;
+}
+
+.column {
+  flex: 20%;
+  margin: 1em;
+}
+@media screen and (max-width: 800px) {
+  .column {
+     
+  }
 }
