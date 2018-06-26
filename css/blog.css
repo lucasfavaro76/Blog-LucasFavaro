@@ -1,7 +1,9 @@
-html{
+html,body,section,article,aside,footer{
     font-family: Helvetica;
+    background-size: 100vw;
 }
 body{
+    
     background-color: #63C6CF;
 }
 section{
@@ -95,11 +97,7 @@ img{
     height:25%;
     width:25%; 
 }
-.designimage{
-    height: 25%;
-    width: 25%;
-    margin: 2% 4% 2% 4%;
-}
+
 #tim{
   float: left;
   padding:16%;
@@ -132,9 +130,15 @@ img{
     height:50%;
     width:50%;
 }
-.tec{
-    float: right;
-    margin: 1% 0% 1% 1%;
+#tec{
+ 
+  float: right;
+  background-image: url(../imagens/tecnologia.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding: 25% 25% 0% 25%;
+  background-position: top right;
+  margin: 1% 0% 1% 1%;
 }
 #port1{
   background-size:100%;
@@ -221,12 +225,16 @@ strong{
     float: right;
     margin: 0% 5% 0% 52%;   
 }
-.seta{ 
-    height: 22%;
-    width: 22%;
-    float: right;
-    margin: 0% 10% 0% 0%;
+.seta { 
+  float: right;
+  background-image: url(../imagens/seta.png);
+  background-repeat: no-repeat;
+  background-size: 25%;
+  padding: 10%;
+  background-position: top right;
+  margin: 0% 4% 1% 1%;
 }
+   
 .brasil{
     height: 7%;
     width: 7%;
@@ -234,30 +242,21 @@ strong{
     margin: 0% 0% 1% 40%; 
 }
 
-/*.gallery {
-  
-}
-.image {
-  
-}
-.item img {
-  display: block;
-  width: 100%
-}
-*/
 .row {
-  display: flex;  
- flex-wrap: wrap;
-  margin: 1%;
-  padding: 1%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  flex-direction: row;
+  max-height: 100%;
 }
 
-.column {
-  flex: 20%;
-  margin: 1em;
+.column img {
+  margin: 1%;
+  border: 0.5vh solid #000;
+  max-width: 20vw;
 }
 @media screen and (max-width: 800px) {
   .column {
-     
+     width: 100%;
   }
 }
