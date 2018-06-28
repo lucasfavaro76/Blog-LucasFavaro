@@ -14,12 +14,14 @@ article{
     margin:5% 6% 0% 6%;
 }
 header{
-	padding:15%;
-  background-color: #3B619C;
-  background-image: url(../imagens/sistemas-para-internet.jpg), url(../imagens/meu_logo.png);
-  background-repeat: no-repeat, no-repeat ;
+	display:flex;
+  	flex-flow:row wrap; 
+	padding:12%;
+  	background-color: #3B619C;
+  	background-image: url(../imagens/sistemas-para-internet.jpg), url(../imagens/meu_logo.png);
+  	background-repeat: no-repeat, no-repeat ;
 	background-position:right,left;
-  background-size: 50%,50%;
+  	background-size: 50%,50%;
 }
  /*menu*/
 .menu {
@@ -152,15 +154,6 @@ img{
   background-image: url(../imagens/portugues1.jpg);
   background-repeat: no-repeat;
   background-position: left ;
-}
-#mate{
-  background-size:70%;
-  padding: 15%;
-  background-image: url("../imagens/matematica.jpg");
-  
-  background-repeat: no-repeat;
-
-
 }
 #mat{
   background-size:45%,50%;
